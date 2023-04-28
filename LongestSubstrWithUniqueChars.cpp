@@ -24,7 +24,7 @@ int main()
     int n=s.length();
     int maxSize;
     multimap<int,string> m;
-    for(int i=n;i!=1;i--){
+    for(int i=n;i!=0;i--){
         for(int j=0;j<=n-i;j++){
             if(check(s.substr(j,i))){
             cout<<s.substr(j,i)<<"\t";
