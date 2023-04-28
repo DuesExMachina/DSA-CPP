@@ -1,4 +1,5 @@
 //Algorithm
+/*
 1.Input the string s
 2.take n= s.length() 
 3. n will be our window size
@@ -11,7 +12,7 @@
    for(j=0;j<n-i;j++)
 8. and to find substring of s starting at index j and of size i
    s.substring(j,i);
-
+*/
 
 
 
