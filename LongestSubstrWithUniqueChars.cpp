@@ -1,3 +1,9 @@
+////****
+Problem Statement-
+    Find the longest substring in a given string with non repeating characters
+
+****////
+
 #include <iostream>
 #include "string"
 #include <map>
