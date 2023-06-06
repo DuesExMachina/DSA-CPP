@@ -26,7 +26,7 @@ void push(node *l){
 }
 
 void show(node *l){
-    node *ptr=new node();
+    node *ptr=new node();   ////don't allocate space for pointer object that you intend to use as a pointer to another object
     ptr=l;
     do{
         cout<<ptr->data;
